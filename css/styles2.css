@@ -77,9 +77,3 @@ body.dark-mode .toggle::after {
   content: '☀️';
   transform: translateX(30px);
 }   
-header img {
-  display: block;
-  height: 80px;
-  width: 245px;
-  margin: 0 auto;
-}
