@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Navbar() {
   const [menuAberto, setMenuAberto] = useState(false);
@@ -55,7 +56,13 @@ export default function Navbar() {
         {/* Centro: Logo */}
         <div style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>
           <Link href="/" style={{ textDecoration: 'none', color: 'inherit' }}>
-            MINHA LOGO
+          <img
+            src="/imgs/logo.png"
+            alt="Logo"
+            style={{ height: '40px', cursor: 'pointer', objectFit: 'contain' }}
+            width={240}
+            height={240}
+          />
           </Link>
         </div>
 
