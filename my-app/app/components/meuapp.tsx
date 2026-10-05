@@ -2,7 +2,7 @@ export default function MeuApp() {
   return (
     <div className="flex flex-col items-center justify-center py-2">
       <h1 className="text-4xl font-bold mb-4 mt-2">
-        Noticias Sobre o GTA6
+        Novo Trailer do GTA6
         </h1>
       <p className="space-y-1">
         Confira o novo trailer de gameplay estendido de Grand Theft Auto VI, o aguardado próximo capítulo da famosa franquia de mundo aberto da Rockstar Games.<br/> 

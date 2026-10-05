@@ -139,9 +139,21 @@ export default function Navbar() {
                   fontWeight: '500'
                 }}
               >
-                🏠 Início
+                🦩 GTA 6
               </Link>
               <Link
+              href="/pag2"
+              onClick={()=> setMenuAberto(false)}
+              style={{
+                fontSize: '18px',
+                textDecoration: 'none',
+                color: 'inherit',
+                fontWeight: '500'
+              }}
+              >
+               ⚙️ Gears of War: E-Day
+              </Link>
+               <Link
                 href="/sobre"
                 onClick={() => setMenuAberto(false)}
                 style={{
@@ -153,6 +165,7 @@ export default function Navbar() {
               >
                 ℹ️ Sobre
               </Link>
+
             </nav>
           </div>
         </div>
