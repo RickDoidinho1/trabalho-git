@@ -23,14 +23,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="pt-BR"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
-      <body style={{
-          display: 'flex',
-          flexDirection: 'column',
-          minHeight: '100vh',
-          margin: 0,
-        }} 
+      <body style={{ display: 'flex',flexDirection: 'column',minHeight: '100vh',margin: 0,}} 
         className="min-h-full flex flex-col">
-        
       <Navbar/>
       <main style={{ flex: 1 }}>{children}</main>
        <Footer/>
