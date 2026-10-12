@@ -1,0 +1,20 @@
+PROJETOGAMES — VERSÃO HTML ESTÁTICA PARA GITHUB PAGES
+
+Arquivos:
+- index.html: página inicial / GTA 6
+- pag2.html: notícia sobre Gears of War E-Day
+- sobre.html: informações sobre o projeto
+- css/style.css: estilos e responsividade
+- js/script.js: menu lateral, tema claro/escuro e ano automático
+- imgs/: imagens originais do projeto
+
+COMO PUBLICAR:
+1. Extraia todos os arquivos desta pasta.
+2. Envie index.html, pag2.html, sobre.html e as pastas css, js e imgs para a raiz do repositório GitHub.
+3. No GitHub, abra Settings > Pages.
+4. Em Build and deployment, escolha Deploy from a branch.
+5. Selecione a branch main e a pasta /(root), depois clique em Save.
+6. Aguarde o GitHub Pages publicar o site.
+
+Não precisa instalar Next.js, React ou Node.js. Esta versão usa HTML, CSS e JavaScript puros.
+Observação: o vídeo incorporado depende do YouTube e de conexão com a internet.
